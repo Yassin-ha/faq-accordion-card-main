@@ -23,7 +23,7 @@ body {
 }
 
 .container {
-    background: url(./images/bg-pattern-desktop.svg) no-repeat;
+    background: url(../images/bg-pattern-desktop.svg) no-repeat;
     background-position: -567px 70%;
     width: 70%;
     height: 500px;
@@ -36,7 +36,7 @@ body {
 }
 
 .container::before {
-    content: url(./images/illustration-box-desktop.svg);
+    content: url(../images/illustration-box-desktop.svg);
     position: absolute;
     left: -130px;
     top: 39%;
@@ -132,7 +132,7 @@ body {
 
 @media screen and (max-width: 1023px) {
     .container {
-        background: url(./images/bg-pattern-mobile.svg) no-repeat;
+        background: url(../images/bg-pattern-mobile.svg) no-repeat;
         background-position-x: 50%;
         flex-direction: column;
         background-color: #fff;
@@ -180,7 +180,7 @@ body {
     }
 
     .image-container .img {
-        background: url(images/illustration-woman-online-mobile.svg) no-repeat;
+        background: url(../images/illustration-woman-online-mobile.svg) no-repeat;
         height: 209px;
         width: 216px;
         left: 50%;
